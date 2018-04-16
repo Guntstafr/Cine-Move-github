@@ -3,13 +3,14 @@
 body {
   background-image: url("../images/grid.jpg");
   font-family: 'Open Sans';
+  font-color: #white;
 }
 
 
 /* Footer */
 
 #footer {
-  background-color: #222;
+  background-color: #EB5757;
   color: #aaaaaa;
   padding-top: 3em;
   padding-bottom: 3em;
@@ -46,6 +47,9 @@ body {
   font-size: 72px;
   text-shadow: 0 0 20px rgba(0, 0, 0, .8);
   font-weight: normal;
+  padding-left: 1em;
+  padding-right: 1em;
+
 }
 
 .lead h2 {
@@ -67,7 +71,7 @@ body {
 /* Some padding for feature images */
 
 .feature img {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .feature {
@@ -79,19 +83,19 @@ body {
 /* How to override the default Bootstrap colors */
 
 .btn-primary {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #0073bb;
+  size: 600px;
 }
 
 .btn-primary:hover {
-  background-color: #16a085;
-  border-color: #16a085;
+  background-color: #EB5757;
+  border-color: #EB5757;
 }
 
 /* How to override the default Bootstrap navbar */
 
 .navbar-transparent {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(235, 87, 87, 0.9);
 }
 
 .navbar-transparent .navbar-brand,
